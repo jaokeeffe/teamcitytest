@@ -5,17 +5,17 @@ using System.Text;
 
 namespace TeamCityTestConsoleApp
 {
-    class Calculator
+    public class Calculator
     {
-        Calculator()
+        public Calculator()
         {
 
         }
-        int Add(int a, int b)
+        public int Add(int a, int b)
         {
             return a + b;
         }
-        int Subtract(int a, int b)
+        public int Subtract(int a, int b)
         {
             return a - b;
         }

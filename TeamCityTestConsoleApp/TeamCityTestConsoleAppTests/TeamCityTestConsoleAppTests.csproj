@@ -56,6 +56,12 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TeamCityTestConsoleApp\TeamCityTestConsoleApp.csproj">
+      <Project>{a12d1c62-9577-476a-ada1-05924e28368a}</Project>
+      <Name>TeamCityTestConsoleApp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
