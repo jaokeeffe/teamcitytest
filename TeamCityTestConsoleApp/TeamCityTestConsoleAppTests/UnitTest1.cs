@@ -4,6 +4,7 @@ using TeamCityTestConsoleApp;
 
 namespace TeamCityTestConsoleAppTests
 {
+    // Unit tests
     [TestClass]
     public class UnitTest1
     {
